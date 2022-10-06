@@ -1,5 +1,5 @@
 # REST API Back-End for Angular 10/9 App with JSON-Server and Faker.js
-REST API back-end for Angular 10/9 application which can be consumed using Angular 10 Http Client even before the real back-end is ready
+REST API back-end for Angular 10/9 application which can be consumed using Angular 10 Http Client even before the real back-end is ready.
 
 Topics : angular rest-api json-server backend-api
 
@@ -40,13 +40,13 @@ You can make use of the _page and _limit parameters to retrieve pages of data. I
 Thanks to json-server you can boost your productivity when developing your Angular 10 front-end without waiting for the back-end features to be ready. Since json-server is based on Express.js, it's even possible to add advanced features to your mocked back-end such as authentication and route protection. Check out this tutorial for an example with authentication or also this npm package.
 
 
-# More info for how to install json-server from npm 
+# More on how to install json-server from npm 
 
 ## Install json-server 
 Go to your angular project and install json-server from npm:
 
-$ cd ~/angular-project
-$ npm install --save json-server
+    $ cd ~/angular-project
+    $ npm install --save json-server
 
 ## Create server/database.json
 Next, create a server/database.json file inside the server folder with the following object:
@@ -60,8 +60,8 @@ We need to add data to this file that will be returned from our REST API endpoin
 
 Head over to your terminal, go to the root of your Angular project, and install Faker.js from npm:
 
-$ cd ..
-$ npm install faker --save
+    $ cd ..
+    $ npm install faker --save
 
 ## reate server/generateData.js file
 Now, create a server/generateData.js file and add the following code:
