@@ -115,7 +115,7 @@ Next, go to your terminal and let’s create some data for our REST API:
 ## Run the REST API server
 Finally, run the REST API server using:
 
-    $ npm run runServer
+    $ npm run Server
 
 Your REST API server will be available from the [http://localhost:3000/](http://localhost:3000/) address.
 

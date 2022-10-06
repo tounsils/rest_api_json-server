@@ -1,5 +1,5 @@
 {
-  "name": "rest_api_backend_angular",
+  "name": "rest_api_json-server",
   "version": "1.0.0",
   "scripts": {
     "ng": "ng",
